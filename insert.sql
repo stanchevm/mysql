@@ -1,4 +1,3 @@
-INSERT INTO 'Person' ('name', 'age', 'city')
-VALUES ('Miro', 15, 'Sofia'),
-       ('Emo', 13, 'Varna'),
-       ('Toshko', 22, 'Pernik');
+INSERT INTO person VALUES ('Miro', 15, 'Sofia');
+INSERT INTO person VALUES ('Emo', 13, 'Varna');
+INSERT INTO person VALUES ('Toshko', 22, 'Pernik');
