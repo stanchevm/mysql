@@ -3,7 +3,7 @@ IF db_id('mirodb') IS NULL
 
 GO
 
-CREATE TABLE mirodb.dbo.persons (
+CREATE TABLE mirodb.persons (
   'name' varchar(50),
   'age' int,
   'city' varchar(255)
