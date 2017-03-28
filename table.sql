@@ -1,4 +1,10 @@
-CREATE TABLE testdb person ( 
-  'name' varchar(255),
+IF db_id('mirodb') IS NULL
+   CREATE DATABASE mirodb
+
+GO
+
+CREATE TABLE mirodb.dbo.persons (
+  'name' varchar(50),
   'age' int,
-  'city' varchar(255));
+  'city' varchar(255)
+);
