@@ -1,1 +1,1 @@
-GRANT ALL PRIVILIGES ON testdb.* To 'miro'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON testdb.* To 'emo'@'localhost' IDENTIFIED BY '123456';
