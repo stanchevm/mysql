@@ -1,4 +1,4 @@
-CREATE TABLE testdb.dbo.person ( 
+CREATE TABLE testdb.dbo.PERSON ( 
   'name' varchar(255),
   'age' int,
   'city' varchar(255));
